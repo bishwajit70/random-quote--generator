@@ -17,6 +17,6 @@ function newQuote(){
 	var randomNumber = Math.floor(Math.random() * (quotes.length));
 	var randomColor = Math.floor(Math.random() * (colors.length));
 	document.getElementById ('quoteDisplay').innerHTML = quotes[randomNumber];
-	document.getElementById ('container').backgroundColor = colors.randomColor;
+	document.getElementById ('container').style.backgroundColor = colors[randomColor];
 
 }

@@ -6,30 +6,31 @@ body{
 	background: olivedrab none repeat scroll 0 0;
 	font-family: "Raleway",sans-serif;
 }
-.container{
+#container{
 	background: #50659b none repeat scroll 0 0;
 	border-radius: 5px;
 	box-shadow: 0 0 8px 4px oldlace;
 	margin: 100px auto;
 	padding: 20px;
 	width: 500px;
+	min-height: 200px;
 }
-.container:after{
+#container:after{
 	content: "";
 	display: block;
 	clear:both;
 }
-.container h1{
+#container h1{
 	text-align: center;
 	color:#fefefe;
 }
 .randomquote{
-	text-align: left;
-	color:#fefefe;
-	min-height: 100px;
-	line-height: 1.75em;
+	color: #fefefe;
 	font-size: 18px;
 	font-style: italic;
+	line-height: 1.75em;
+	min-height: 150px;
+	text-align: left;
 }
 .newquote{
 	float:right;

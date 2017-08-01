@@ -10,7 +10,13 @@ var quotes = [
 	'Entrepreneures Are great at dealing with uncertainy and also very good at minimizing Risk. That\'s the Classic Entrepreneur. - Monish Pabrai',
 	'We May encounter Many Defeats But we must not be Defeated. - Maya Angelou'
 ]
+var colors = ['#16a085', '#27ae60', '#2c3e50', '#f39c12', '#e74c3c', '#9b59b6', '#FB6964', '#342224', "#472E32", "#BDBB99"]
+
+
 function newQuote(){
 	var randomNumber = Math.floor(Math.random() * (quotes.length));
-	document.getElementById ('quoteDisplay').innerHTML = quotes[randomNumber];	
+	var randomColor = Math.floor(Math.random() * (colors.length));
+	document.getElementById ('quoteDisplay').innerHTML = quotes[randomNumber];
+	document.getElementById ('container').backgroundColor = colors.randomColor;
+
 }
